@@ -1,0 +1,17 @@
+.prices {
+    text-align: center;
+    height: 350px;
+}
+.prices img {
+    width: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.prices img:hover {
+    width: 60%;
+    transition-duration: 1s;
+}
+.prices {
+    margin-left: 70px;
+    margin-right: 5px;
+}

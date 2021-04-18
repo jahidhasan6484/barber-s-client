@@ -1,0 +1,29 @@
+.home {
+    text-align: center;
+    padding: 50px;
+    background: rgb(247, 247, 247);
+    border-radius: 10px;
+}
+.home img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.yellow {
+    color: 	#Be6b25;
+}
+.initialPricing {
+    text-align: center;
+}
+.initialPricing img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin-right: 2px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}

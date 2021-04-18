@@ -1,0 +1,10 @@
+.card {
+    margin-left: 60px;
+    margin-right: 12px;
+    margin-bottom: 30px;
+    background: rgb(247, 247, 247);
+    border-radius: 5px;
+}
+.card img {
+    object-fit: cover;
+}

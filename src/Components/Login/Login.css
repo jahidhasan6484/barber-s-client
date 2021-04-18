@@ -1,0 +1,11 @@
+.login {
+    text-align: center;
+    margin-top: 50px;
+}
+.welcome img {
+    height: 100%;
+    width: 100%;
+}
+.googleLogin img {
+    width:30px;
+}

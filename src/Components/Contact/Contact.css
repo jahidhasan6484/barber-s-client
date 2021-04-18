@@ -1,0 +1,19 @@
+/* .contact {
+    margin-top: 50px;
+} */
+.bgContact,
+.contactArticle {
+    margin-top:20px;
+}
+.bgContact img {
+   float: right;
+    height:90%;
+    width:90%;
+    border-radius:10px;
+}
+.contactDetails {
+    margin-top:40px;
+}
+.contactDetails img {
+    width: 5%;
+}

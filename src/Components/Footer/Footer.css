@@ -1,0 +1,13 @@
+.footer {
+    margin-top: 70px;
+    padding: 50px;
+    background: rgb(247, 247, 247);
+    border-radius: 10px;
+}
+.copyright {
+    text-align: center;
+    margin-top: 50px;
+}
+.footer .nav__link {
+    text-decoration: none;
+}
