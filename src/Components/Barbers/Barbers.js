@@ -7,7 +7,7 @@ const Barbers = () => {
   const [stylists, setStylists] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/stylists')
+    fetch('https://infinite-garden-56670.herokuapp.com/stylists')
       .then(res => res.json())
       .then(data => {
         setStylists(data)

@@ -5,7 +5,7 @@ const ManageServices = () => {
   const [services, setServices] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/service")
+    fetch("https://infinite-garden-56670.herokuapp.com/service")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, [services]);
@@ -35,9 +35,9 @@ const ManageServices = () => {
                 <th scope="col" className=" text-center">
                   Price
                 </th>
-                <th scope="col" className=" text-center">
+                {/* <th scope="col" className=" text-center">
                   Action
-                </th>
+                </th> */}
               </tr>
             </thead>
             {services.map((service) => {
@@ -46,10 +46,10 @@ const ManageServices = () => {
                   <tr>
                     <td>{service.name}</td>
                     <td className=" text-center">{service.price}</td>
-                    <td className=" text-center">
+                    {/* <td className=" text-center">
                       <button className="btn__primary">Edit</button>
                       <button className="btn__primary">Delete</button>
-                    </td>
+                    </td> */}
                   </tr>
                 </tbody>
               );

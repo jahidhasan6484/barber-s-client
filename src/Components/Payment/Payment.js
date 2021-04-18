@@ -16,7 +16,6 @@ const Payment = () => {
                     <div>
                         <ProcessPayment />
                     </div>
-                    {/* <Link to="/dashboard"><button className="btn__primary">Done</button></Link> */}
                 </div>
             </div>
         </div>

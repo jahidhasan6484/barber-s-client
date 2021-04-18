@@ -12,6 +12,7 @@ import populer8 from "../../all_images/populer (8).jpg";
 import Barbers from "../Barbers/Barbers";
 import AllServices from "../AllServices/AllServices";
 import Review from "../Review/Review";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
@@ -120,6 +121,7 @@ const Home = () => {
       <Barbers />
       <AllServices />
       <Review />
+      <Footer />
     </home>
   );
 };

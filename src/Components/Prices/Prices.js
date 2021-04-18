@@ -10,7 +10,6 @@ const Prices = ({ service }) => {
       </Link>
       <p>{service?.name}</p>
       <p>${service?.price}</p>
-      {/* <Link to={`/checkout/${service._id}`}><button className="btn__primary">Book Now</button></Link> */}
     </div>
   );
 };

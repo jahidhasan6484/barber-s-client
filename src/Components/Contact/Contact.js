@@ -27,7 +27,7 @@ of his monkey-rope holder.
               <p> <img src={phoneCall}></img>  +880 17742 66484</p>
             </div>
             <div>
-              <p><img src={email}></img> let'sgodrivingschool@gmail.com</p>
+              <p><img src={email}></img> barbers.salon@gmail.com</p>
             </div>
             <div>
               <h6> <img src={home}></img> TRACK LOCATION</h6>

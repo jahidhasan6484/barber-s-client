@@ -12,7 +12,7 @@ const AddAdmin = () => {
 
   const handleSubmit = () => {
     const admin = { ...info };
-    fetch("http://localhost:5000/addAdmin", {
+    fetch("https://infinite-garden-56670.herokuapp.com/addAdmin", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(admin),

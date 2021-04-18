@@ -14,7 +14,7 @@ const AddReview = () => {
 
     const handleSubmit = () => {
         const reviewDetails = { ...review, email: loggedInUser.email };
-        fetch("http://localhost:5000/addReview", {
+        fetch("https://infinite-garden-56670.herokuapp.com/addReview", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(reviewDetails),

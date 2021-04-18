@@ -8,6 +8,7 @@ const Profile = () => {
 
     const handleLogOut = () => {
         setLoggedInUser("");
+        sessionStorage.removeItem('token');
     }
     return (
         <div className="container profile">

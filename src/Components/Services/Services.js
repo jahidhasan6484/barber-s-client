@@ -23,7 +23,7 @@ const Services = () => {
     formData.append("name", info.name);
     formData.append("price", info.price);
 
-    fetch("http://localhost:5000/addAService", {
+    fetch("https://infinite-garden-56670.herokuapp.com/addAService", {
       method: "POST",
       body: formData,
     })

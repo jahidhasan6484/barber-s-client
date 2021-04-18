@@ -10,7 +10,7 @@ const CheckOut = () => {
 
     const { id } = useParams();
     useEffect(() => {
-        fetch('http://localhost:5000/service')
+        fetch('https://infinite-garden-56670.herokuapp.com/service')
             .then(res => res.json())
             .then(data => setBook(data))
     }, [id])
@@ -19,7 +19,7 @@ const CheckOut = () => {
 
     const handleCheckout = () => {
         const newBooking = { ...loggedInUser, serviceName: selectedBook?.name, price: selectedBook?.price, status: "Pending" }
-        fetch('http://localhost:5000/addBooking', {
+        fetch('https://infinite-garden-56670.herokuapp.com/addBooking', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newBooking)

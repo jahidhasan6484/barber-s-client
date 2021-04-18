@@ -24,7 +24,7 @@ const AddStylist = () => {
     formData.append("role", info.role);
     formData.append("email", info.email);
 
-    fetch("http://localhost:5000/addAStylist", {
+    fetch("https://infinite-garden-56670.herokuapp.com/addAStylist", {
       method: "POST",
       body: formData,
     })
